@@ -4,6 +4,7 @@
 
 	<listeners>
 		<listener class-name="customListenrs.Listners"></listener>
+		<listener class-name="org.uncommons.reportng.HTMLReporter"></listener>
 	</listeners>
 
 
