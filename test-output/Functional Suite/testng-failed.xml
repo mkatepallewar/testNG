@@ -8,6 +8,8 @@
     <classes>
       <class name="testcases.TestCase2">
         <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
           <include name="validateTitle"/>
         </methods>
       </class> <!-- testcases.TestCase2 -->
@@ -19,6 +21,8 @@
         <methods>
           <include name="thirdTest"/>
           <include name="doLogin"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
           <include name="doUserReg"/>
         </methods>
       </class> <!-- testcases.TestCase_TestCaseDependency -->
@@ -28,7 +32,9 @@
     <classes>
       <class name="testcases.TestFailures">
         <methods>
+          <include name="tearDown"/>
           <include name="doLogin"/>
+          <include name="setUp"/>
         </methods>
       </class> <!-- testcases.TestFailures -->
     </classes>
@@ -37,6 +43,8 @@
     <classes>
       <class name="testcases.TestCase_SoftAssertion">
         <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
           <include name="validateTitle"/>
         </methods>
       </class> <!-- testcases.TestCase_SoftAssertion -->

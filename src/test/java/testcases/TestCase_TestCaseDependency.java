@@ -4,7 +4,7 @@ import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.Test;
 
-public class TestCase_TestCaseDependency {
+public class TestCase_TestCaseDependency extends BaseTest {
 	
 	@Test (priority=1, groups = {"functional","smoke"})
 	public void doUserReg() {

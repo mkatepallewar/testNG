@@ -6,7 +6,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
-public class TestCase_SoftAssertion {
+public class TestCase_SoftAssertion extends BaseTest {
 
 	
 	@Test(groups = {"functional","smoke"})
