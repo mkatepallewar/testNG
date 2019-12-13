@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="parameterization.TestParameterFromXML">
+      <class name="ParallelTest.TestInvocation">
         <methods>
-          <include name="getBrowser"/>
+          <include name="executeTest"/>
         </methods>
-      </class> <!-- parameterization.TestParameterFromXML -->
+      </class> <!-- ParallelTest.TestInvocation -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
