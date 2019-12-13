@@ -1,55 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="2" total="4" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="43" started-at="2019-12-13T12:51:18 IST" finished-at="2019-12-13T12:51:18 IST">
+  <suite name="Regression Suite" duration-ms="87" started-at="2019-12-13T13:10:00 IST" finished-at="2019-12-13T13:10:00 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="43" started-at="2019-12-13T12:51:18 IST" finished-at="2019-12-13T12:51:18 IST">
-      <class name="testcases.LoginTest">
-        <test-method status="PASS" signature="testUserReg1(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.LoginTest@3a5ed7a6]" name="testUserReg1" duration-ms="6" started-at="2019-12-13T12:51:18 IST" data-provider="dp1" finished-at="2019-12-13T12:51:18 IST">
+    <test name="TestParameterFromXML Test" duration-ms="39" started-at="2019-12-13T13:10:00 IST" finished-at="2019-12-13T13:10:00 IST">
+      <class name="parameterization.TestParameterFromXML">
+        <test-method status="PASS" signature="getBrowser(java.lang.String, java.lang.String)[pri:0, instance:parameterization.TestParameterFromXML@6325a3ee]" name="getBrowser" duration-ms="8" started-at="2019-12-13T13:10:00 IST" finished-at="2019-12-13T13:10:00 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[raman]]>
+                <![CDATA[firefox]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[lololo]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[test@gmail.com]]>
+                <![CDATA[qa]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testUserReg1 -->
-        <test-method status="PASS" signature="testUserReg1(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.LoginTest@3a5ed7a6]" name="testUserReg1" duration-ms="1" started-at="2019-12-13T12:51:18 IST" data-provider="dp1" finished-at="2019-12-13T12:51:18 IST">
+        </test-method> <!-- getBrowser -->
+      </class> <!-- parameterization.TestParameterFromXML -->
+    </test> <!-- TestParameterFromXML Test -->
+    <test name="TestParameterFromXML TestChrome" duration-ms="3" started-at="2019-12-13T13:10:00 IST" finished-at="2019-12-13T13:10:00 IST">
+      <class name="parameterization.TestParameterFromXML">
+        <test-method status="PASS" signature="getBrowser(java.lang.String, java.lang.String)[pri:0, instance:parameterization.TestParameterFromXML@57855c9a]" name="getBrowser" duration-ms="1" started-at="2019-12-13T13:10:00 IST" finished-at="2019-12-13T13:10:00 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Rahul]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[haha]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[test@gmail.com]]>
+                <![CDATA[uat]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testUserReg1 -->
-      </class> <!-- testcases.LoginTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- getBrowser -->
+      </class> <!-- parameterization.TestParameterFromXML -->
+    </test> <!-- TestParameterFromXML TestChrome -->
+  </suite> <!-- Regression Suite -->
 </testng-results>
