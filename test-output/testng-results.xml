@@ -2,47 +2,27 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="10343" started-at="2019-12-13T10:18:34 IST" finished-at="2019-12-13T10:18:45 IST">
+  <suite name="Default suite" duration-ms="18318" started-at="2019-12-13T12:14:04 IST" finished-at="2019-12-13T12:14:22 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="10343" started-at="2019-12-13T10:18:34 IST" finished-at="2019-12-13T10:18:45 IST">
+    <test name="Default test" duration-ms="18318" started-at="2019-12-13T12:14:04 IST" finished-at="2019-12-13T12:14:22 IST">
       <class name="testcases.TestNGParamaterizationExcel">
-        <test-method status="PASS" signature="testData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TestNGParamaterizationExcel@2a65fe7c]" name="testData" duration-ms="8" started-at="2019-12-13T10:18:44 IST" data-provider="getData" finished-at="2019-12-13T10:18:44 IST">
+        <test-method status="PASS" signature="testData(java.util.Hashtable)[pri:0, instance:testcases.TestNGParamaterizationExcel@2a65fe7c]" name="testData" duration-ms="8" started-at="2019-12-13T12:14:22 IST" data-provider="getData" finished-at="2019-12-13T12:14:22 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Manish]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[kk]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Y]]>
+                <![CDATA[{age=22.0, password=kk, gender=M, is_correct=Y, username=Manish}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testData -->
-        <test-method status="PASS" signature="testData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TestNGParamaterizationExcel@2a65fe7c]" name="testData" duration-ms="0" started-at="2019-12-13T10:18:44 IST" data-provider="getData" finished-at="2019-12-13T10:18:44 IST">
+        <test-method status="PASS" signature="testData(java.util.Hashtable)[pri:0, instance:testcases.TestNGParamaterizationExcel@2a65fe7c]" name="testData" duration-ms="1" started-at="2019-12-13T12:14:22 IST" data-provider="getData" finished-at="2019-12-13T12:14:22 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Manish1]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[PP]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[N]]>
+                <![CDATA[{age=23.0, password=PP, gender=F, is_correct=N, username=TTT}]]>
               </value>
             </param>
           </params>
