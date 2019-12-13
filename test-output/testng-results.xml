@@ -2,48 +2,38 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Regression Suite" duration-ms="87" started-at="2019-12-13T13:10:00 IST" finished-at="2019-12-13T13:10:00 IST">
+  <suite name="Parallel Suite" duration-ms="1059" started-at="2019-12-13T13:23:03 IST" finished-at="2019-12-13T13:23:04 IST">
     <groups>
     </groups>
-    <test name="TestParameterFromXML Test" duration-ms="39" started-at="2019-12-13T13:10:00 IST" finished-at="2019-12-13T13:10:00 IST">
-      <class name="parameterization.TestParameterFromXML">
-        <test-method status="PASS" signature="getBrowser(java.lang.String, java.lang.String)[pri:0, instance:parameterization.TestParameterFromXML@6325a3ee]" name="getBrowser" duration-ms="8" started-at="2019-12-13T13:10:00 IST" finished-at="2019-12-13T13:10:00 IST">
+    <test name="Chrome Test" duration-ms="1059" started-at="2019-12-13T13:23:03 IST" finished-at="2019-12-13T13:23:04 IST">
+      <class name="ParallelTest.TestBrowser">
+        <test-method status="PASS" signature="doLogin(java.lang.String)[pri:0, instance:ParallelTest.TestBrowser@57855c9a]" name="doLogin" duration-ms="1022" started-at="2019-12-13T13:23:03 IST" finished-at="2019-12-13T13:23:04 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+      </class> <!-- ParallelTest.TestBrowser -->
+    </test> <!-- Chrome Test -->
+    <test name="Firefox Test" duration-ms="1059" started-at="2019-12-13T13:23:03 IST" finished-at="2019-12-13T13:23:04 IST">
+      <class name="ParallelTest.TestBrowser">
+        <test-method status="PASS" signature="doLogin(java.lang.String)[pri:0, instance:ParallelTest.TestBrowser@6325a3ee]" name="doLogin" duration-ms="1022" started-at="2019-12-13T13:23:03 IST" finished-at="2019-12-13T13:23:04 IST">
           <params>
             <param index="0">
               <value>
                 <![CDATA[firefox]]>
               </value>
             </param>
-            <param index="1">
-              <value>
-                <![CDATA[qa]]>
-              </value>
-            </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getBrowser -->
-      </class> <!-- parameterization.TestParameterFromXML -->
-    </test> <!-- TestParameterFromXML Test -->
-    <test name="TestParameterFromXML TestChrome" duration-ms="3" started-at="2019-12-13T13:10:00 IST" finished-at="2019-12-13T13:10:00 IST">
-      <class name="parameterization.TestParameterFromXML">
-        <test-method status="PASS" signature="getBrowser(java.lang.String, java.lang.String)[pri:0, instance:parameterization.TestParameterFromXML@57855c9a]" name="getBrowser" duration-ms="1" started-at="2019-12-13T13:10:00 IST" finished-at="2019-12-13T13:10:00 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[uat]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getBrowser -->
-      </class> <!-- parameterization.TestParameterFromXML -->
-    </test> <!-- TestParameterFromXML TestChrome -->
-  </suite> <!-- Regression Suite -->
+        </test-method> <!-- doLogin -->
+      </class> <!-- ParallelTest.TestBrowser -->
+    </test> <!-- Firefox Test -->
+  </suite> <!-- Parallel Suite -->
 </testng-results>
