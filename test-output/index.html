@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\Manish_Katepallewar\AppData\Local\Temp\testng-eclipse-579153136\testng-customsuite.xml</span>
+                    <span>C:\Users\Manish_Katepallewar\AppData\Local\Temp\testng-eclipse-1040086131\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -102,12 +102,12 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testcases.TestNGParamaterizationExcel" hash-for-method="testData({age=23.0, password=PP, gender=F, is_correct=N, username=TTT})">testData({age=23.0, password=PP, gender=F, is_correct=N, username=TTT})</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testcases.LoginTest" hash-for-method="testUserReg1(Rahul, haha, test@gmail.com)">testUserReg1(Rahul, haha, test@gmail.com)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testcases.TestNGParamaterizationExcel" hash-for-method="testData({age=22.0, password=kk, gender=M, is_correct=Y, username=Manish})">testData({age=22.0, password=kk, gender=M, is_correct=Y, username=Manish})</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testcases.LoginTest" hash-for-method="testUserReg1(raman, lololo, test@gmail.com)">testUserReg1(raman, lololo, test@gmail.com)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -125,23 +125,23 @@
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">testcases.TestNGParamaterizationExcel</span>
+              <span class="class-name">testcases.LoginTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="testData({age=23.0, password=PP, gender=F, is_correct=N, username=TTT})">
-                  </a> <!-- testData({age=23.0, password=PP, gender=F, is_correct=N, username=TTT}) -->
-                  <span class="method-name">testData</span>
-                  <span class="parameters">({age=23.0, password=PP, gender=F, is_correct=N, username=TTT})</span>
+                  <a name="testUserReg1(Rahul, haha, test@gmail.com)">
+                  </a> <!-- testUserReg1(Rahul, haha, test@gmail.com) -->
+                  <span class="method-name">testUserReg1</span>
+                  <span class="parameters">(Rahul, haha, test@gmail.com)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="testData({age=22.0, password=kk, gender=M, is_correct=Y, username=Manish})">
-                  </a> <!-- testData({age=22.0, password=kk, gender=M, is_correct=Y, username=Manish}) -->
-                  <span class="method-name">testData</span>
-                  <span class="parameters">({age=22.0, password=kk, gender=M, is_correct=Y, username=Manish})</span>
+                  <a name="testUserReg1(raman, lololo, test@gmail.com)">
+                  </a> <!-- testUserReg1(raman, lololo, test@gmail.com) -->
+                  <span class="method-name">testUserReg1</span>
+                  <span class="parameters">(raman, lololo, test@gmail.com)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -149,7 +149,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Manish_Katepallewar\AppData\Local\Temp\testng-eclipse-579153136\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\Manish_Katepallewar\AppData\Local\Temp\testng-eclipse-1040086131\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -158,7 +158,11 @@
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
   &lt;test thread-count=&quot;5&quot; verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;testcases.TestNGParamaterizationExcel&quot;/&gt;
+      &lt;class name=&quot;testcases.LoginTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;testUserReg1&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- testcases.LoginTest --&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -200,18 +204,18 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'testData')
-data.setCell(0, 2, 'testcases.TestNGParamaterizationExcel')
-data.setCell(0, 3, 8);
+data.setCell(0, 1, 'testUserReg1')
+data.setCell(0, 2, 'testcases.LoginTest')
+data.setCell(0, 3, 6);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'testData')
-data.setCell(1, 2, 'testcases.TestNGParamaterizationExcel')
+data.setCell(1, 1, 'testUserReg1')
+data.setCell(1, 2, 'testcases.LoginTest')
 data.setCell(1, 3, 1);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 9 ms</span>
+              <span class="suite-total-time">Total running time: 7 ms</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -226,9 +230,18 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">0 ignored methods</span>
+            <span class="header-content">2 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testcases.LoginTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">testLogin</span>
+                <br/>
+                <span class="ignored-method-name">testUserReg</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-Default_suite" class="panel">
@@ -237,14 +250,14 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">testcases.TestNGParamaterizationExcel</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">testcases.LoginTest</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">testData({age=22.0, password=kk, gender=M, is_correct=Y, username=Manish})</span>
+                <span class="method-name">testUserReg1(raman, lololo, test@gmail.com)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">testData({age=23.0, password=PP, gender=F, is_correct=N, username=TTT})</span>
-                <span class="method-start">10 ms</span>
+                <span class="method-name">testUserReg1(Rahul, haha, test@gmail.com)</span>
+                <span class="method-start">8 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

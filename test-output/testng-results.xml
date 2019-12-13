@@ -1,35 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="2" total="4" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="18318" started-at="2019-12-13T12:14:04 IST" finished-at="2019-12-13T12:14:22 IST">
+  <suite name="Default suite" duration-ms="43" started-at="2019-12-13T12:51:18 IST" finished-at="2019-12-13T12:51:18 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="18318" started-at="2019-12-13T12:14:04 IST" finished-at="2019-12-13T12:14:22 IST">
-      <class name="testcases.TestNGParamaterizationExcel">
-        <test-method status="PASS" signature="testData(java.util.Hashtable)[pri:0, instance:testcases.TestNGParamaterizationExcel@2a65fe7c]" name="testData" duration-ms="8" started-at="2019-12-13T12:14:22 IST" data-provider="getData" finished-at="2019-12-13T12:14:22 IST">
+    <test name="Default test" duration-ms="43" started-at="2019-12-13T12:51:18 IST" finished-at="2019-12-13T12:51:18 IST">
+      <class name="testcases.LoginTest">
+        <test-method status="PASS" signature="testUserReg1(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.LoginTest@3a5ed7a6]" name="testUserReg1" duration-ms="6" started-at="2019-12-13T12:51:18 IST" data-provider="dp1" finished-at="2019-12-13T12:51:18 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{age=22.0, password=kk, gender=M, is_correct=Y, username=Manish}]]>
+                <![CDATA[raman]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[lololo]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test@gmail.com]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testData -->
-        <test-method status="PASS" signature="testData(java.util.Hashtable)[pri:0, instance:testcases.TestNGParamaterizationExcel@2a65fe7c]" name="testData" duration-ms="1" started-at="2019-12-13T12:14:22 IST" data-provider="getData" finished-at="2019-12-13T12:14:22 IST">
+        </test-method> <!-- testUserReg1 -->
+        <test-method status="PASS" signature="testUserReg1(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.LoginTest@3a5ed7a6]" name="testUserReg1" duration-ms="1" started-at="2019-12-13T12:51:18 IST" data-provider="dp1" finished-at="2019-12-13T12:51:18 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{age=23.0, password=PP, gender=F, is_correct=N, username=TTT}]]>
+                <![CDATA[Rahul]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[haha]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test@gmail.com]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testData -->
-      </class> <!-- testcases.TestNGParamaterizationExcel -->
+        </test-method> <!-- testUserReg1 -->
+      </class> <!-- testcases.LoginTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
