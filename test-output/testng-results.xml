@@ -1,61 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="44" started-at="2019-12-12T23:47:41 IST" finished-at="2019-12-12T23:47:41 IST">
+  <suite name="Default suite" duration-ms="10343" started-at="2019-12-13T10:18:34 IST" finished-at="2019-12-13T10:18:45 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="44" started-at="2019-12-12T23:47:41 IST" finished-at="2019-12-12T23:47:41 IST">
-      <class name="parameterization.TestParameterization">
-        <test-method status="PASS" signature="doLogin(java.lang.String, java.lang.String)[pri:0, instance:parameterization.TestParameterization@520a3426]" name="doLogin" duration-ms="6" started-at="2019-12-12T23:47:41 IST" data-provider="getData" finished-at="2019-12-12T23:47:41 IST">
+    <test name="Default test" duration-ms="10343" started-at="2019-12-13T10:18:34 IST" finished-at="2019-12-13T10:18:45 IST">
+      <class name="testcases.TestNGParamaterizationExcel">
+        <test-method status="PASS" signature="testData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TestNGParamaterizationExcel@2a65fe7c]" name="testData" duration-ms="8" started-at="2019-12-13T10:18:44 IST" data-provider="getData" finished-at="2019-12-13T10:18:44 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[test@gamil.com]]>
+                <![CDATA[Manish]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[ddd]]>
+                <![CDATA[kk]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Y]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- doLogin -->
-        <test-method status="PASS" signature="doLogin(java.lang.String, java.lang.String)[pri:0, instance:parameterization.TestParameterization@520a3426]" name="doLogin" duration-ms="1" started-at="2019-12-12T23:47:41 IST" data-provider="getData" finished-at="2019-12-12T23:47:41 IST">
+        </test-method> <!-- testData -->
+        <test-method status="PASS" signature="testData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TestNGParamaterizationExcel@2a65fe7c]" name="testData" duration-ms="0" started-at="2019-12-13T10:18:44 IST" data-provider="getData" finished-at="2019-12-13T10:18:44 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[test1@gamil.com]]>
+                <![CDATA[Manish1]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[ddd2]]>
+                <![CDATA[PP]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[N]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- doLogin -->
-        <test-method status="PASS" signature="doLogin(java.lang.String, java.lang.String)[pri:0, instance:parameterization.TestParameterization@520a3426]" name="doLogin" duration-ms="1" started-at="2019-12-12T23:47:41 IST" data-provider="getData" finished-at="2019-12-12T23:47:41 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[test2@gamil.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[ddd3]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- doLogin -->
-      </class> <!-- parameterization.TestParameterization -->
+        </test-method> <!-- testData -->
+      </class> <!-- testcases.TestNGParamaterizationExcel -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

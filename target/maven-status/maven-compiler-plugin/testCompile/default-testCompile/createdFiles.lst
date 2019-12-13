@@ -1,10 +1,5 @@
-testcases\TestFailures.class
+parameterization\TestParameterization.class
 customListenrs\Listners.class
-regressionTest\TestCase1.class
 testcases\TestCase1.class
 testcases\TestSkip.class
-regressionTest\TestCase2.class
 testcases\BaseTest.class
-testcases\TestCase2.class
-testcases\TestCase_SoftAssertion.class
-testcases\TestCase_TestCaseDependency.class
